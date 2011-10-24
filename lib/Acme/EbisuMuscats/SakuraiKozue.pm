@@ -1,0 +1,26 @@
+package Acme::EbisuMuscats::SakuraiKozue;
+
+use strict;
+use warnings;
+
+use base qw(Acme::EbisuMuscats::Base);
+
+sub info {
+    return (
+        family_name_ja => '桜井',
+        first_name_ja  => 'こずえ',
+        family_name_en => 'Sakurai',
+        first_name_en  => 'Kozue',
+        birthday       => Date::Simple->new('1986-11-04'),
+        blood_type     => 'O',
+        hometown       => '千葉県',
+        graduate_date  => Date::Simple->new('2009-06'),
+        join_date      => Date::Simple->new('2009-04'),
+        nick           => [],
+        class          => ,
+        measurements   => [],
+        cup            => '',
+    );
+}
+
+1;
