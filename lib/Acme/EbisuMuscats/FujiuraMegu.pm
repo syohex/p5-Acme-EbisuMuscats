@@ -16,10 +16,10 @@ sub info {
         hometown       => '東京都',
         graduate_date  => Date::Simple->new('2010-03'),
         join_date      => Date::Simple->new('2008-11'),
-        nick           => [],
-        class          => ,
-        measurements   => [],
-        cup            => '',
+        nick           => [qw(フジメグ めぐりん)],
+        class          => 1,
+        measurements   => [95,60,88],
+        cup            => 'G',
     );
 }
 

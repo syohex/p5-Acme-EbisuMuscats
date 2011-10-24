@@ -16,10 +16,10 @@ sub info {
         hometown       => '京都府',
         graduate_date  => Date::Simple->new('2009-07'),
         join_date      => Date::Simple->new('2009-04'),
-        nick           => [],
-        class          => ,
-        measurements   => [],
-        cup            => '',
+        nick           => [qw(ユリリン)],
+        class          => 2,
+        measurements   => [86,60,89],
+        cup            => 'E',
     );
 }
 

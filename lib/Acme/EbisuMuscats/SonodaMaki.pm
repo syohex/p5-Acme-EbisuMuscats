@@ -16,10 +16,10 @@ sub info {
         hometown       => '兵庫県',
         graduate_date  => Date::Simple->new('2011-03'),
         join_date      => Date::Simple->new('2010-10'),
-        nick           => [],
-        class          => ,
-        measurements   => [],
-        cup            => '',
+        nick           => [qw(マキオ オカマ)],
+        class          => 5,
+        measurements   => [90,60,88],
+        cup            => 'I',
     );
 }
 

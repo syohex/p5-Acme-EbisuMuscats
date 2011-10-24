@@ -16,10 +16,10 @@ sub info {
         hometown       => '北海道',
         graduate_date  => Date::Simple->new('2010-03'),
         join_date      => Date::Simple->new('2008-04'),
-        nick           => [],
-        class          => ,
-        measurements   => [],
-        cup            => '',
+        nick           => [qw(りさぴょん リサリサ)],
+        class          => 1,
+        measurements   => [90,58,85],
+        cup            => 'G',
     );
 }
 

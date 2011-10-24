@@ -16,10 +16,10 @@ sub info {
         hometown       => '千葉県',
         graduate_date  => Date::Simple->new('2009-06'),
         join_date      => Date::Simple->new('2009-04'),
-        nick           => [],
-        class          => ,
-        measurements   => [],
-        cup            => '',
+        nick           => [qw(こっさぁ)],
+        class          => 2,
+        measurements   => [85,58,85],
+        cup            => 'C',
     );
 }
 

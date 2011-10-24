@@ -17,9 +17,9 @@ sub info {
         graduate_date  => Date::Simple->new('2011-04'),
         join_date      => Date::Simple->new('2011-04'),
         nick           => [],
-        class          => ,
-        measurements   => [],
-        cup            => '',
+        class          => 6,
+        measurements   => [90,59,88],
+        cup            => 'E',
     );
 }
 

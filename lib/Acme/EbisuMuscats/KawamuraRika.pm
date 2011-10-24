@@ -16,10 +16,10 @@ sub info {
         hometown       => '東京都',
         graduate_date  => Date::Simple->new('2010-03'),
         join_date      => Date::Simple->new('2008-04'),
-        nick           => [],
-        class          => ,
-        measurements   => [],
-        cup            => '',
+        nick           => [qw(リカ様)],
+        class          => 1,
+        measurements   => [88,60,88],
+        cup            => 'G',
     );
 }
 
