@@ -16,6 +16,7 @@ __PACKAGE__->mk_accessors(qw(
     age
     blood_type
     hometown
+    join_date
     graduate_date
     nick
     class
