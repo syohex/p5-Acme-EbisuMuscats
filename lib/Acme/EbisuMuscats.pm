@@ -144,13 +144,15 @@ sub sort_by_measurements {
 }
 
 sub select {
-    my ($self, $type, $number, $operator, @members) = @_;
+    my ($self, $type, $value, $operator, @members) = @_;
+
+    my @operators = qw(== >= <= > < eq ge le gt lt);
 
     $self->_die('invalid operator was passed in')
-        unless grep {$operator eq $_} qw(== >= <= > <);
+        unless grep {$operator eq $_} @operators;
 
     @members = $self->members unless @members;
-    my $compare = eval "(sub { \$number $operator \$_[0] })";
+    my $compare = eval "(sub { \$value $operator \$_[0] })";
 
     return grep { $compare->($_->$type) } @members;
 }
