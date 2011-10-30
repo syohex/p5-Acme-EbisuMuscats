@@ -18,7 +18,7 @@ sub info {
         join_date      => Date::Simple->new('2008-04-01'),
         nick           => [qw(Rioっち)],
         class          => 1,
-        measurements   => [84-58-83],
+        measurements   => [84,58,83],
         cup            => 'B',
     );
 }
