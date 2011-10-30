@@ -125,6 +125,24 @@ sub sort {
     }
 }
 
+sub sort_by_measurements {
+    my ($self, $type, $order, @members) = @_;
+    @members = $self->members unless @members;
+
+    $self->_die('invalid type prameter')
+        unless grep { $type eq $_ } qw(bust waist hip);
+
+    my $i = { bust => 0, waist => 1, hip => 2 }->{$type};
+
+    # order by desc if $order is true
+    if ($order) {
+        return sort {$b->measurements->[$i] <=> $a->measurements->[$i]} @members;
+    }
+    else {
+        return sort {$a->measurements->[$i] <=> $b->measurements->[$i]} @members;
+    }
+}
+
 sub select {
     my ($self, $type, $number, $operator, @members) = @_;
 
