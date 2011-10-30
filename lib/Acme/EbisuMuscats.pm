@@ -230,7 +230,7 @@ Creates and returns a new Acme::EbisuMuscats object.
   #  + Date::Simple object : members at the time passed in
   #  + undef               : all members
 
-  my @members = $momoclo_chan->members('active');
+  my @members = $muscats->members('active');
 
 Returns the members as a list of the L<Acme::EbisuMuscats::Base>
 based object represents each member. See also the documentation of
@@ -250,7 +250,26 @@ L<Acme::EbisuMuscats::Base> for more details.
   #  + something true value  :  sort in descending order
   #  + something false value :  sort in ascending order
 
-  my @sorted_members = $momoclo_chan->sort('age', 1); # sort by age in descending order
+  my @sorted_members = $muscats->sort('age', 1); # sort by age in descending order
+
+Returns the members sorted by the I<$type> field.
+
+=back
+
+=head2 sort_by_measurements ( $type, $order [ , @members ] )
+
+=over 4
+
+  # $type can be one of the values below:
+  #  + bust   :  sort by age
+  #  + waist  :  sort by waist
+  #  + hip    :  sort by hip
+  #
+  # $order can be a one of the values below:
+  #  + something true value  :  sort in descending order
+  #  + something false value :  sort in ascending order
+
+  my @sorted = $muscats->sort_by_measurements('bust', 1); # sort by bust in descending order
 
 Returns the members sorted by the I<$type> field.
 
@@ -261,7 +280,7 @@ Returns the members sorted by the I<$type> field.
 =over 4
 
   # $type can be one of the same values above:
-  my @selected_members = $momoclo_chan->select('age', 17, '>=');
+  my @selected_members = $muscats->select('age', 17, '>=');
 
 Returns the members satisfy the given I<$type> condition. I<$operator>
 must be a one of '==', '>=', '<=', '>', and '<'. This method compares
@@ -278,10 +297,6 @@ the given I<$type> to the member's one in the order below:
 =item * Ebisu Muscats - Official WebPage
 
 L<http://www.ebisu-muscats.com/>
-
-=item * Momoiro Clover Z - Wikipedia
-
-L<http://ja.wikipedia.org/wiki/%E6%81%B5%E6%AF%94%E5%AF%BF%E3%83%9E%E3%82%B9%E3%82%AB%E3%83%83%E3%83%84>
 
 =item * L<Acme::EbisuMuscats::Members::Base>
 
