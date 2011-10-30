@@ -19,7 +19,7 @@ sub info {
         nick           => [],
         class          => 4,
         measurements   => [86,58,88],
-        cup            => '', # unknown
+        cup            => 'unknown',
     );
 }
 

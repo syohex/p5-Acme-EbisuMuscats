@@ -19,7 +19,7 @@ sub info {
         nick           => [qw(こにゃん)],
         class          => 1,
         measurements   => [84,60,87],
-        cup            => '', #unknown
+        cup            => 'unknown',
     );
 }
 

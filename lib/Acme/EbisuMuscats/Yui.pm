@@ -18,8 +18,8 @@ sub info {
         join_date      => Date::Simple->new('2011-10-01'),
         nick           => [],
         class          => 7,
-        measurements   => [87,60,], # hip is unknown
-        cup            => '', # unknown
+        measurements   => [87,60,87], # hip is unknown. This value is temporary
+        cup            => 'unknown',
     );
 }
 

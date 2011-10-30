@@ -19,7 +19,7 @@ sub info {
         nick           => [qw(織井さん はるにゃん)],
         class          => 4,
         measurements   => [86,57,88],
-        cup            => '', # unknown
+        cup            => 'unknown',
     );
 }
 
