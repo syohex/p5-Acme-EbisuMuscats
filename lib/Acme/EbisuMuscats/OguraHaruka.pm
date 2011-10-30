@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'A',
         hometown       => '東京都',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2009-04'),
+        join_date      => Date::Simple->new('2009-04-01'),
         nick           => [qw(園長)],
         class          => 2,
         measurements   => [83,58,85],

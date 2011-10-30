@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'AB',
         hometown       => '大阪府',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2011-11'),
+        join_date      => Date::Simple->new('2011-11-01'),
         nick           => [],
         class          => 7,
         measurements   => [90,60,88],

@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'O',
         hometown       => '大阪府',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2009-04'),
+        join_date      => Date::Simple->new('2009-04-01'),
         nick           => [qw(まなまな まなちゃん)],
         class          => 2,
         measurements   => [88,58,85],

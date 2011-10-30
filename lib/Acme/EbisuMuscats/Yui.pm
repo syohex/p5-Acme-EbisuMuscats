@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'O',
         hometown       => '北海道',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2011-10'),
+        join_date      => Date::Simple->new('2011-10-01'),
         nick           => [],
         class          => 7,
         measurements   => [87,60,], # hip is unknown

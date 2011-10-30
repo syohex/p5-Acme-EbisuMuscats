@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'B',
         hometown       => '東京都',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2008-04'),
+        join_date      => Date::Simple->new('2008-04-01'),
         nick           => [qw(そらちゃん リーダー 老師)],
         class          => 1,
         measurements   => [90,58,83],

@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'B',
         hometown       => '兵庫県',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2009-04'),
+        join_date      => Date::Simple->new('2009-04-01'),
         nick           => [qw(りんりん りんちゃん 凛太郎)],
         class          => 2,
         measurements   => [83,58,82],

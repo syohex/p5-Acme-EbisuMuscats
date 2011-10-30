@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'O',
         hometown       => '東京都',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2008-04'),
+        join_date      => Date::Simple->new('2008-04-01'),
         nick           => [],
         class          => 1,
         measurements   => [86,60,86],

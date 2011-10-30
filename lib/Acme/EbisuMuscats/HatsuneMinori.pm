@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'A',
         hometown       => '富山県',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2008-04'),
+        join_date      => Date::Simple->new('2008-04-01'),
         nick           => [qw(みのりん のーりー お初)],
         class          => 1,
         measurements   => [89,58,85],

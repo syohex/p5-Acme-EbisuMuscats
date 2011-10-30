@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'B',
         hometown       => '神奈川県',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2010-11'),
+        join_date      => Date::Simple->new('2010-11-01'),
         nick           => [qw(むいぴょん くりちゃん 亀甲山 亀甲さん)],
         class          => 5,
         measurements   => [86,58,87],

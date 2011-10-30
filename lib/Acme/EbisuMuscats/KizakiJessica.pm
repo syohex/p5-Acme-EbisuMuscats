@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'O',
         hometown       => '東京都',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2009-05'),
+        join_date      => Date::Simple->new('2009-05-01'),
         nick           => [qw(ジェシー)],
         class          => 2,
         measurements   => [86,60,87],

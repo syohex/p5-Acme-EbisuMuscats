@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'A',
         hometown       => '京都府',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2010-04'),
+        join_date      => Date::Simple->new('2010-04-01'),
         nick           => [qw(菜々ちゃん 児玉ちゃん)],
         class          => 4,
         measurements   => [89,59,85],

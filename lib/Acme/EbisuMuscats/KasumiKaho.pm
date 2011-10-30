@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'O',
         hometown       => '千葉県',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2009-10'),
+        join_date      => Date::Simple->new('2009-10-01'),
         nick           => [qw(かほっち かほちゃ)],
         class          => 3,
         measurements   => [85,62,91],

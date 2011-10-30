@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'A',
         hometown       => '千葉県',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2010-04'),
+        join_date      => Date::Simple->new('2010-04-01'),
         nick           => [qw(ルカリナ)],
         class          => 4,
         measurements   => [81,57,83],

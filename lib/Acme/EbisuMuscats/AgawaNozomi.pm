@@ -14,8 +14,8 @@ sub info {
         birthday       => Date::Simple->new('9999-12-31'), #unknown
         blood_type     => 'unknown',
         hometown       => 'unknown',
-        graduate_date  => Date::Simple->new('2010-04'),
-        join_date      => Date::Simple->new('2010-06'),
+        graduate_date  => Date::Simple->new('2010-04-01'),
+        join_date      => Date::Simple->new('2010-06-01'),
         nick           => [],
         class          => 4,
         measurements   => [85,59,85],

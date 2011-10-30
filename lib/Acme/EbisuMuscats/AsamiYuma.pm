@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'AB',
         hometown       => '群馬県',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2008-03'),
+        join_date      => Date::Simple->new('2008-03-01'),
         nick           => [qw(ゆまチン)],
         class          => 1,
         measurements   => [96,58,88],

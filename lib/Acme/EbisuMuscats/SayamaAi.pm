@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'A',
         hometown       => '東京都',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2008-05'),
+        join_date      => Date::Simple->new('2008-05-01'),
         nick           => [qw(LOVEちゃん さやまーん)],
         class          => 1,
         measurements   => [98,61,90],

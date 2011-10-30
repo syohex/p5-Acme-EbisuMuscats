@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'O',
         hometown       => '静岡県',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2008-04'),
+        join_date      => Date::Simple->new('2008-04-01'),
         nick           => [qw(翔ちゃん)],
         class          => 1,
         measurements   => [81,57,86],

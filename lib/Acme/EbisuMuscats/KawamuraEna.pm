@@ -15,7 +15,7 @@ sub info {
         blood_type     => 'A',
         hometown       => '岐阜県',
         graduate_date  => undef,
-        join_date      => Date::Simple->new('2009-04'),
+        join_date      => Date::Simple->new('2009-04-01'),
         nick           => [qw(えな AC)],
         class          => 2,
         measurements   => [82,58,88],
