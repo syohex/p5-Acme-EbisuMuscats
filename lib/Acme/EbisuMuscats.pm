@@ -151,6 +151,8 @@ sub select {
     $self->_die('invalid operator was passed in')
         unless grep {$operator eq $_} @operators;
 
+    $value = uc $value if $type eq 'cup';
+
     @members = $self->members unless @members;
     my $compare = eval "(sub { \$value $operator \$_[0] })";
 
