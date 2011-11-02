@@ -129,6 +129,8 @@ sub sort_by_measurements {
     my ($self, $type, $order, @members) = @_;
     @members = $self->members unless @members;
 
+    $type = lc $type;
+
     $self->_die('invalid type prameter')
         unless grep { $type eq $_ } qw(bust waist hip);
 
