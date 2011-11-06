@@ -12,6 +12,7 @@ for my $member (@members) {
     ok $member->first_name_ja || $member->family_name_ja,'  first_name_ja()';
     ok $member->name_en,                  '  name_en()';
     ok $member->first_name_en || ok $member->family_name_en, '  name_en()';
+    ok ref($member->aliases) eq 'ARRAY',     '  aliases()';
     ok ref($member->nick) eq 'ARRAY',     '  nick()';
     ok !$member->birthday || $member->birthday->isa('Date::Simple'), '  birthday()';
     ok $member->age,                      '  age()';
