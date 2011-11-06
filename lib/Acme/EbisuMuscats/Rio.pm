@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'Rio',
         family_name_en => '',
         first_name_en  => 'Rio',
+        aliases        => [qw(柚木ティナ)],
         birthday       => Date::Simple->new('1986-10-29'),
         blood_type     => 'A',
         hometown       => '東京都',

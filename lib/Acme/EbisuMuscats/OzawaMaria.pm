@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'マリア',
         family_name_en => 'Ozawa',
         first_name_en  => 'Maria',
+        aliases        => [qw(葉山麻理)],
         birthday       => Date::Simple->new('1986-01-08'),
         blood_type     => 'A',
         hometown       => '北海道',

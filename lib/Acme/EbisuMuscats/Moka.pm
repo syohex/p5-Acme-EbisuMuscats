@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'モカ',
         family_name_en => '',
         first_name_en  => 'Moka',
+        aliases        => [qw(erika)],
         birthday       => Date::Simple->new('1987-07-07'),
         blood_type     => 'A',
         hometown       => '東京都',

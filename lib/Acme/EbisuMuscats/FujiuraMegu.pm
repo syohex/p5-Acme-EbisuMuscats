@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'めぐ',
         family_name_en => 'Fujiura',
         first_name_en  => 'Megu',
+        aliases        => [qw(めぐり)],
         birthday       => Date::Simple->new('1989-05-04'),
         blood_type     => 'O',
         hometown       => '東京都',

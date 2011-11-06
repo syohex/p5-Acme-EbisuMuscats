@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '桃子',
         family_name_en => 'Nishizono',
         first_name_en  => 'Momoko',
+        aliases        => [qw(花園うらら)],
         birthday       => Date::Simple->new('1984-12-04'),
         blood_type     => 'B',
         hometown       => '熊本県',

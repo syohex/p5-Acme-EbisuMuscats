@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'カエラ',
         family_name_en => 'Uehara',
         first_name_en  => 'Kaera',
+        aliases        => [qw(美咲マリ)],
         birthday       => Date::Simple->new('1988-02-14'),
         blood_type     => 'O',
         hometown       => '東京都',

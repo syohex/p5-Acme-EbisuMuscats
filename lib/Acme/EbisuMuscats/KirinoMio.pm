@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '澪',
         family_name_en => 'Kirino',
         first_name_en  => 'Mio',
+        aliases        => [qw(ユウコ・フランソワーズ)],
         birthday       => Date::Simple->new('1984-03-03'),
         blood_type     => 'O',
         hometown       => '京都府',

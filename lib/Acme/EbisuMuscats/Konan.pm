@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'KONAN',
         family_name_en => '',
         first_name_en  => 'Konan',
+        aliases        => [qw(虎南有美)],
         birthday       => Date::Simple->new('1985-03-04'),
         blood_type     => 'B',
         hometown       => '大阪府',

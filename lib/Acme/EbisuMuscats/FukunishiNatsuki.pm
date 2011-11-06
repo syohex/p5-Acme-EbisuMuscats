@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '菜月',
         family_name_en => 'Fukunishi',
         first_name_en  => 'Natsuki',
+        aliases        => [qw(立花凛々花 凛々花)],
         birthday       => Date::Simple->new('1986-01-22'),
         blood_type     => 'B',
         hometown       => '大阪府',

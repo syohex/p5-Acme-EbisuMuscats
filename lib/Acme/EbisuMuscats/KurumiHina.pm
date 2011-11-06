@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'ひな',
         family_name_en => 'Kurumi',
         first_name_en  => 'Hina',
+        aliases        => [qw(杏樹紗奈)],
         birthday       => Date::Simple->new('1989-01-14'),
         blood_type     => 'O',
         hometown       => '新潟県',

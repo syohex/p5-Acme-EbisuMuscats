@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '明絵',
         family_name_en => 'Harada',
         first_name_en  => 'Akie',
+        aliases        => [qw(愛羽ひな)],
         birthday       => Date::Simple->new('1987-01-22'),
         blood_type     => 'B',
         hometown       => '埼玉県',

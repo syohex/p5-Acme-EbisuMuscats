@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'さき',
         family_name_en => 'Kataoka',
         first_name_en  => 'Saki',
+        aliases        => [qw(青木莉子 桜まい)],
         birthday       => Date::Simple->new('1986-07-04'),
         blood_type     => 'A',
         hometown       => '神奈川県',

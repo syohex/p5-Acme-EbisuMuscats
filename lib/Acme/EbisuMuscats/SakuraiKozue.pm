@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'こずえ',
         family_name_en => 'Sakurai',
         first_name_en  => 'Kozue',
+        aliases        => [qw(桜井梢)],
         birthday       => Date::Simple->new('1986-11-04'),
         blood_type     => 'O',
         hometown       => '千葉県',

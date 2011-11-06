@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'ゆりあ',
         family_name_en => 'Satomi',
         first_name_en  => 'Yuria',
+        aliases        => [qw(小泉彩)],
         birthday       => Date::Simple->new('1984-12-17'),
         blood_type     => 'AB',
         hometown       => '神奈川県',

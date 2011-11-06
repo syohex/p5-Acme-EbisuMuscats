@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'かほ',
         family_name_en => 'Natsumi',
         first_name_en  => 'Kaho',
+        aliases        => [qw(恩田かおり)],
         birthday       => Date::Simple->new('1985-08-24'),
         blood_type     => 'O',
         hometown       => '栃木県',

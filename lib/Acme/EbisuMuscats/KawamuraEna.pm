@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'えな',
         family_name_en => 'Kawamura',
         first_name_en  => 'Ena',
+        aliases        => [qw(榎並沙知 榎並さち)],
         birthday       => Date::Simple->new('1987-03-10'),
         blood_type     => 'A',
         hometown       => '岐阜県',
