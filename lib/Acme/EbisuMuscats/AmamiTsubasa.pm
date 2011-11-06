@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'つばさ',
         family_name_en => 'Amami',
         first_name_en  => 'Tsubasa',
+        aliases        => [],
         birthday       => Date::Simple->new('1988-03-08'),
         blood_type     => 'B',
         hometown       => '広島県',

@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'れい',
         family_name_en => 'Toda',
         first_name_en  => 'Rei',
+        aliases        => [],
         birthday       => Date::Simple->new('1987-02-09'),
         blood_type     => 'A',
         hometown       => '東京都',

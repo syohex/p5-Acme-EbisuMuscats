@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '翔',
         family_name_en => 'Nishino',
         first_name_en  => 'Shou',
+        aliases        => [],
         birthday       => Date::Simple->new('1985-06-29'),
         blood_type     => 'O',
         hometown       => '静岡県',

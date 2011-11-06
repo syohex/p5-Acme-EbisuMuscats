@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '夢衣',
         family_name_en => 'Kuriyama',
         first_name_en  => 'Mui',
+        aliases        => [],
         birthday       => Date::Simple->new('1988-02-24'),
         blood_type     => 'B',
         hometown       => '神奈川県',

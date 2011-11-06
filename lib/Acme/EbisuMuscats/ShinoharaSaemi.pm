@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '冴美',
         family_name_en => 'Shinohara',
         first_name_en  => 'Saemi',
+        aliases        => [],
         birthday       => Date::Simple->new('1992-08-29'),
         blood_type     => 'B',
         hometown       => '東京都',

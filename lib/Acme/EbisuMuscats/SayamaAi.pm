@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '愛',
         family_name_en => 'Sayama',
         first_name_en  => 'Ai',
+        aliases        => [],
         birthday       => Date::Simple->new('1989-01-08'),
         blood_type     => 'A',
         hometown       => '東京都',

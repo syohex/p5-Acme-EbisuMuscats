@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'みゆ',
         family_name_en => 'Misaki',
         first_name_en  => 'Miyu',
+        aliases        => [],
         birthday       => Date::Simple->new('1988-10-01'),
         blood_type     => 'B',
         hometown       => '神奈川県',

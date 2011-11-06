@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'みいな',
         family_name_en => 'Minamoto',
         first_name_en  => 'Miina',
+        aliases        => [],
         birthday       => Date::Simple->new('1992-09-11'),
         blood_type     => 'O',
         hometown       => '東京都',

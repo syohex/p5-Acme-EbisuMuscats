@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'あかね',
         family_name_en => 'Fujisaki',
         first_name_en  => 'Akane',
+        aliases        => [],
         birthday       => Date::Simple->new('1983-09-09'),
         blood_type     => 'A',
         hometown       => '神奈川県',

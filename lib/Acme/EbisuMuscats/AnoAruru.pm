@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'あるる',
         family_name_en => 'Ano',
         first_name_en  => 'Aruru',
+        aliases        => [],
         birthday       => Date::Simple->new('1988-03-08'),
         blood_type     => 'A',
         hometown       => '東京都',

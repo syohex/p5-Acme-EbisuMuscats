@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '栞',
         family_name_en => 'Tsukimi',
         first_name_en  => 'Shiori',
+        aliases        => [],
         birthday       => Date::Simple->new('1986-04-16'),
         blood_type     => 'O',
         hometown       => '東京都',

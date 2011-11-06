@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'あいり',
         family_name_en => 'Nagasaku',
         first_name_en  => 'Airi',
+        aliases        => [],
         birthday       => Date::Simple->new('1988-03-17'),
         blood_type     => 'O',
         hometown       => '茨城県',

@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '結夜',
         family_name_en => '',
         first_name_en  => 'Yui',
+        aliases        => [],
         birthday       => Date::Simple->new('9999-11-20'), # Year is unknown
         blood_type     => 'O',
         hometown       => '北海道',

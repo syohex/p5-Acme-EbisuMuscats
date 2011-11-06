@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '凛',
         family_name_en => 'Sakuragi',
         first_name_en  => 'Rin',
+        aliases        => [],
         birthday       => Date::Simple->new('1989-03-03'),
         blood_type     => 'B',
         hometown       => '兵庫県',

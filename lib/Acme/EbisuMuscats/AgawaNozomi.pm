@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'のぞみ',
         family_name_en => 'Agawa',
         first_name_en  => 'Nozomi',
+        aliases        => [],
         birthday       => Date::Simple->new('9999-12-31'), #unknown
         blood_type     => 'unknown',
         hometown       => 'unknown',

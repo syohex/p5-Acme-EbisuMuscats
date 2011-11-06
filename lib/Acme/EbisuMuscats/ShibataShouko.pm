@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '翔生子',
         family_name_en => 'Shibata',
         first_name_en  => 'Shouko',
+        aliases        => [],
         birthday       => Date::Simple->new('1985-04-14'),
         blood_type     => 'A',
         hometown       => '神奈川県',

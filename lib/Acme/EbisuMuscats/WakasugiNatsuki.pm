@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '夏希',
         family_name_en => 'Wakasugi',
         first_name_en  => 'Natsuki',
+        aliases        => [],
         birthday       => Date::Simple->new('1987-07-23'),
         blood_type     => 'O',
         hometown       => '静岡県',

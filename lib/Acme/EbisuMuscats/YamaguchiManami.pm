@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '愛美',
         family_name_en => 'Yamaguchi',
         first_name_en  => 'Manami',
+        aliases        => [],
         birthday       => Date::Simple->new('1984-03-31'),
         blood_type     => 'O',
         hometown       => '大阪府',

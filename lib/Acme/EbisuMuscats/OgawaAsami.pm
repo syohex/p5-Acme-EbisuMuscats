@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'あさ美',
         family_name_en => 'Ogawa',
         first_name_en  => 'Asami',
+        aliases        => [],
         birthday       => Date::Simple->new('1985-04-11'),
         blood_type     => 'A',
         hometown       => '東京都',

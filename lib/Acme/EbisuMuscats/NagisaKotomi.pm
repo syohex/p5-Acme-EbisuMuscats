@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'ことみ',
         family_name_en => 'Nagisa',
         first_name_en  => 'Kotomi',
+        aliases        => [],
         birthday       => Date::Simple->new('1991-04-05'),
         blood_type     => 'A',
         hometown       => '東京都',

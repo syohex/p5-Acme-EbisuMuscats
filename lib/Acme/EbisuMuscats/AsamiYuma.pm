@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'ゆま',
         family_name_en => 'Asami',
         first_name_en  => 'Yuma',
+        aliases        => [],
         birthday       => Date::Simple->new('1987-03-24'),
         blood_type     => 'AB',
         hometown       => '群馬県',

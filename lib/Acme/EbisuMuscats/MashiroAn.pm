@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '杏',
         family_name_en => 'Mashiro',
         first_name_en  => 'An',
+        aliases        => [],
         birthday       => Date::Simple->new('1990-01-23'),
         blood_type     => 'O',
         hometown       => '神奈川県',

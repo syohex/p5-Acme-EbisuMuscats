@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'レモン',
         family_name_en => 'Mizutama',
         first_name_en  => 'Lemon',
+        aliases        => [],
         birthday       => Date::Simple->new('1983-03-03'),
         blood_type     => 'A',
         hometown       => '長野県',

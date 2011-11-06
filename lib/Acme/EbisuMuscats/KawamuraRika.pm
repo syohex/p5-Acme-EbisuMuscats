@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'りか',
         family_name_en => 'Kawamura',
         first_name_en  => 'Rika',
+        aliases        => [],
         birthday       => Date::Simple->new('1985-10-10'),
         blood_type     => 'O',
         hometown       => '東京都',

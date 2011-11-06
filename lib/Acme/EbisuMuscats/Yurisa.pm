@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'ユリサ',
         family_name_en => '',
         first_name_en  => 'Yurisa',
+        aliases        => [],
         birthday       => Date::Simple->new('1985-07-27'),
         blood_type     => 'O',
         hometown       => '京都府',

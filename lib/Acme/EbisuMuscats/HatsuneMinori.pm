@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'みのり',
         family_name_en => 'Hatsune',
         first_name_en  => 'Minori',
+        aliases        => [],
         birthday       => Date::Simple->new('1987-12-10'),
         blood_type     => 'A',
         hometown       => '富山県',

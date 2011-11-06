@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'けい',
         family_name_en => 'Megumi',
         first_name_en  => 'Kei',
+        aliases        => [],
         birthday       => Date::Simple->new('1989-06-10'),
         blood_type     => 'AB',
         hometown       => '千葉県',

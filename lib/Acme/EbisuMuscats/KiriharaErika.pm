@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'エリカ',
         family_name_en => 'Kirihara',
         first_name_en  => 'Erika',
+        aliases        => [],
         birthday       => Date::Simple->new('1987-12-15'),
         blood_type     => 'A',
         hometown       => '東京都',

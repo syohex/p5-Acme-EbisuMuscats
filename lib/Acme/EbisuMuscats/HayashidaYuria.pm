@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'ゆりあ',
         family_name_en => 'Hayashida',
         first_name_en  => 'Yuria',
+        aliases        => [],
         birthday       => Date::Simple->new('1988-08-01'),
         blood_type     => 'O',
         hometown       => '大阪府',

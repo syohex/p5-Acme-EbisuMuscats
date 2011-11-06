@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'みひろ',
         family_name_en => '',
         first_name_en  => 'Mihiro',
+        aliases        => [],
         birthday       => Date::Simple->new('1982-05-19'),
         blood_type     => 'A',
         hometown       => '新潟県',

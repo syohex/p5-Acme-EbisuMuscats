@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '唯香',
         family_name_en => 'Oshikawa',
         first_name_en  => 'Yuika',
+        aliases        => [],
         birthday       => Date::Simple->new('1990-06-13'),
         blood_type     => 'AB',
         hometown       => '大阪府',

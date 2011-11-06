@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '美雪',
         family_name_en => 'Yokoyama',
         first_name_en  => 'Miyuki',
+        aliases        => [],
         birthday       => Date::Simple->new('1989-11-15'),
         blood_type     => 'A',
         hometown       => '東京都',

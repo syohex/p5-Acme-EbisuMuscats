@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '真紀',
         family_name_en => 'Sonoda',
         first_name_en  => 'Maki',
+        aliases        => [],
         birthday       => Date::Simple->new('1989-07-18'),
         blood_type     => 'O',
         hometown       => '兵庫県',

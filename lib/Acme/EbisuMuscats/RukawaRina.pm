@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'リナ',
         family_name_en => 'Rukawa',
         first_name_en  => 'Rina',
+        aliases        => [],
         birthday       => Date::Simple->new('1991-02-23'),
         blood_type     => 'A',
         hometown       => '千葉県',

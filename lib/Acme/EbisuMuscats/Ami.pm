@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'Ami',
         family_name_en => '',
         first_name_en  => 'Ami',
+        aliases        => [],
         birthday       => Date::Simple->new('1986-07-10'),
         blood_type     => 'A',
         hometown       => '神奈川県',

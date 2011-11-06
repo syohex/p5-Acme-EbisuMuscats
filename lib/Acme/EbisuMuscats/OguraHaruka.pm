@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '遥',
         family_name_en => 'Ogura',
         first_name_en  => 'Haruka',
+        aliases        => [],
         birthday       => Date::Simple->new('1984-08-09'),
         blood_type     => 'A',
         hometown       => '東京都',

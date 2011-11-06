@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '真央',
         family_name_en => 'Ichijo',
         first_name_en  => 'Mao',
+        aliases        => [],
         birthday       => Date::Simple->new('1987-10-04'),
         blood_type     => 'A',
         hometown       => '兵庫県',

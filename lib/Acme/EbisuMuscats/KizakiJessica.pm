@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'ジェシカ',
         family_name_en => 'Kizaki',
         first_name_en  => 'Jessica',
+        aliases        => [],
         birthday       => Date::Simple->new('1986-06-10'),
         blood_type     => 'O',
         hometown       => '東京都',

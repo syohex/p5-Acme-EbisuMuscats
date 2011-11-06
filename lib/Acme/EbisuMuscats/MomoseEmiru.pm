@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'えみる',
         family_name_en => 'Momose',
         first_name_en  => 'Emiru',
+        aliases        => [],
         birthday       => Date::Simple->new('1985-03-22'),
         blood_type     => 'O',
         hometown       => '東京都',

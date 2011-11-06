@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'まこと',
         family_name_en => 'Yuki',
         first_name_en  => 'Makoto',
+        aliases        => [],
         birthday       => Date::Simple->new('1990-07-07'),
         blood_type     => 'B',
         hometown       => '神奈川県',

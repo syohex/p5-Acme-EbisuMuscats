@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'あいの',
         family_name_en => 'Kishi',
         first_name_en  => 'Aino',
+        aliases        => [],
         birthday       => Date::Simple->new('1988-02-01'),
         blood_type     => 'AB',
         hometown       => '北海道',

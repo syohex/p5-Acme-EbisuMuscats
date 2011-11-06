@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'あいか',
         family_name_en => 'Ando',
         first_name_en  => 'Aika',
+        aliases        => [],
         birthday       => Date::Simple->new('1986-07-09'),
         blood_type     => 'O',
         hometown       => '東京都',

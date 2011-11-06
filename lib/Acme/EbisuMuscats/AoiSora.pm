@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'そら',
         family_name_en => 'Aoi',
         first_name_en  => 'Sora',
+        aliases        => [],
         birthday       => Date::Simple->new('1983-11-11'),
         blood_type     => 'B',
         hometown       => '東京都',

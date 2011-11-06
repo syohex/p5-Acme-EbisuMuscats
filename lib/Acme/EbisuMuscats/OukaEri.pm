@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'えり',
         family_name_en => 'Ouka',
         first_name_en  => 'Eri',
+        aliases        => [],
         birthday       => Date::Simple->new('1990-04-11'),
         blood_type     => 'A',
         hometown       => '神奈川県',

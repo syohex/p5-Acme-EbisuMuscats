@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '遥菜',
         family_name_en => 'Orii',
         first_name_en  => 'Haruna',
+        aliases        => [],
         birthday       => Date::Simple->new('1989-02-14'),
         blood_type     => 'O',
         hometown       => '東京都',

@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '菜々子',
         family_name_en => 'Kodama',
         first_name_en  => 'Nanako',
+        aliases        => [],
         birthday       => Date::Simple->new('1987-04-03'),
         blood_type     => 'A',
         hometown       => '京都府',

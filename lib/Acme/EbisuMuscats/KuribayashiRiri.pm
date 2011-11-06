@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '里莉',
         family_name_en => 'Kuribayashi',
         first_name_en  => 'Rina',
+        aliases        => [],
         birthday       => Date::Simple->new('1987-04-16'),
         blood_type     => 'O',
         hometown       => '東京都',

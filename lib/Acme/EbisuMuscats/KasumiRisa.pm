@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'りさ',
         family_name_en => 'Kasumi',
         first_name_en  => 'Risa',
+        aliases        => [],
         birthday       => Date::Simple->new('1984-05-31'),
         blood_type     => 'O',
         hometown       => '北海道',

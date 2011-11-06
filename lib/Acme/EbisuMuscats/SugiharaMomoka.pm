@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '桃花',
         family_name_en => 'Sugihara',
         first_name_en  => 'Momoka',
+        aliases        => [],
         birthday       => Date::Simple->new('1985-12-15'),
         blood_type     => 'A',
         hometown       => '山形県',

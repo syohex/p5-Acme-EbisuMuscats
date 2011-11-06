@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => '絢子',
         family_name_en => 'Yamanaka',
         first_name_en  => 'Ayaka',
+        aliases        => [],
         birthday       => Date::Simple->new('1986-10-14'),
         blood_type     => 'B',
         hometown       => '兵庫県',

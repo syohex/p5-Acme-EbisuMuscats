@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'ここみ',
         family_name_en => 'Sakura',
         first_name_en  => 'Kokomi',
+        aliases        => [],
         birthday       => Date::Simple->new('1988-12-18'),
         blood_type     => 'AB',
         hometown       => '島根県',

@@ -11,6 +11,7 @@ sub info {
         first_name_ja  => 'ゆみ',
         family_name_en => 'Nagase',
         first_name_en  => 'Yumi',
+        aliases        => [],
         birthday       => Date::Simple->new('1985-10-18'),
         blood_type     => 'A',
         hometown       => '兵庫県',
