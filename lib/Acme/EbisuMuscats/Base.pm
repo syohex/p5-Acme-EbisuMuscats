@@ -12,6 +12,7 @@ __PACKAGE__->mk_accessors(qw(
     name_en
     first_name_en
     family_name_en
+    aliases
     birthday
     age
     blood_type
@@ -112,6 +113,8 @@ member of Ebisu Muscats.
 
 =head2 family_name_en
 
+=head2 aliases
+
 =head2 birthday
 
 =head2 age
@@ -120,7 +123,17 @@ member of Ebisu Muscats.
 
 =head2 hometown
 
+=head2 join_date
+
 =head2 graduate_date
+
+=head2 nick
+
+=head2 class
+
+=head2 cup
+
+=head2 measurements
 
 =head1 SEE ALSO
 
