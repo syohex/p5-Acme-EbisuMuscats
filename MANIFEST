@@ -9,6 +9,14 @@ inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
+lib/Acme/BlackMuscats.pm
+lib/Acme/BlackMuscats/AsakawaKotomi.pm
+lib/Acme/BlackMuscats/HoujouMami.pm
+lib/Acme/BlackMuscats/KaneshiroMao.pm
+lib/Acme/BlackMuscats/KawamuraRika.pm
+lib/Acme/BlackMuscats/OkamotoYui.pm
+lib/Acme/BlackMuscats/OohashiSayoko.pm
+lib/Acme/BlackMuscats/SakamotoRion.pm
 lib/Acme/EbisuMuscats.pm
 lib/Acme/EbisuMuscats/AgawaNozomi.pm
 lib/Acme/EbisuMuscats/AmamiTsubasa.pm
@@ -89,4 +97,5 @@ README
 t/00_compile.t
 t/01_member.t
 t/02_muscats.t
+t/03_black.t
 xt/pod.t
