@@ -34,13 +34,13 @@ __END__
 
 =head1 NAME
 
-Acme::BlackMuscats -
+Acme::BlackMuscats - BMS
 
 =head1 SYNOPSIS
 
 =head1 DESCRIPTION
 
-Acme::BlackMuscats is
+Acme::BlackMuscats is Mysterious Black Group
 
 =head1 AUTHOR
 
