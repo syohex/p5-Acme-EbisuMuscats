@@ -42,6 +42,10 @@ Acme::BlackMuscats - BMS
 
 Acme::BlackMuscats is Mysterious Black Group
 
+=head1 SEE ALSO
+
+L<Acme::EbisuMuscats>
+
 =head1 AUTHOR
 
 Syohei YOSHIDA E<lt>syohex@gmail.comE<gt>

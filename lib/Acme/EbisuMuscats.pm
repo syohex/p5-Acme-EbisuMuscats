@@ -302,6 +302,10 @@ the given I<$type> to the member's one in the order below:
 
 L<http://www.ebisu-muscats.com/>
 
+=item * Ebisu Muscats - Wikipedia
+
+L<http://ja.wikipedia.org/wiki/%E6%81%B5%E6%AF%94%E5%AF%BF%E3%83%9E%E3%82%B9%E3%82%AB%E3%83%83%E3%83%84>
+
 =item * L<Acme::EbisuMuscats::Members::Base>
 
 =back
