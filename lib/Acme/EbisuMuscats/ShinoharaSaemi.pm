@@ -17,9 +17,9 @@ sub info {
         hometown       => '東京都',
         graduate_date  => undef,
         join_date      => Date::Simple->new('2011-10-01'),
-        nick           => [qw(さみぃ)],
+        nick           => [qw(さみぃー)],
         class          => 7,
-        measurements   => [86,58,90],
+        measurements   => [85,57,89],
         cup            => 'F',
     );
 }

@@ -19,7 +19,7 @@ sub info {
         join_date      => Date::Simple->new('2011-11-01'),
         nick           => [],
         class          => 7,
-        measurements   => [90,60,88],
+        measurements   => [93,60,90],
         cup            => 'F',
     );
 }
