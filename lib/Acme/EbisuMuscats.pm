@@ -81,6 +81,9 @@ HaradaAkie
 MashiroAn
 NagisaKotomi
 MinamotoMiina
+HarunaHana
+AnjoAnna
+MizukiUruha
 );
 
 sub new {
