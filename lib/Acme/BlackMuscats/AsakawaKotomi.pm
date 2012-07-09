@@ -15,7 +15,7 @@ sub info {
         birthday       => Date::Simple->new('1987-03-07'),
         blood_type     => 'A',
         hometown       => '鹿児島県',
-        graduate_date  => undef,
+        graduate_date  => Date::Simple->new('2012-03-01'),
         join_date      => Date::Simple->new('2011-10-01'),
         nick           => [qw(ことみん こと)],
         class          => 1,

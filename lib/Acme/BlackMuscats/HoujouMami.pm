@@ -15,7 +15,7 @@ sub info {
         birthday       => Date::Simple->new('1984-03-02'),
         blood_type     => 'O',
         hometown       => '青森県',
-        graduate_date  => undef,
+        graduate_date  => Date::Simple->new('2012-03-01'),
         join_date      => Date::Simple->new('2011-10-01'),
         nick           => [qw(ほじょちゃん)],
         class          => 1,
