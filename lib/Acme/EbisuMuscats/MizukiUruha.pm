@@ -15,7 +15,7 @@ sub info {
         birthday       => Date::Simple->new('1992-12-03'),
         blood_type     => 'A',
         hometown       => '京都府',
-        graduate_date  => undef,
+        graduate_date  => Date::Simple->new('2012-07-01'),
         join_date      => Date::Simple->new('2011-04-04'),
         nick           => [],
         class          => 8,

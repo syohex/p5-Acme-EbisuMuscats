@@ -84,6 +84,7 @@ MinamotoMiina
 HarunaHana
 AnjoAnna
 MizukiUruha
+OohashiSayoko
 );
 
 sub new {
