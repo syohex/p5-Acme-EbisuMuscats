@@ -22,6 +22,7 @@ lib/Acme/EbisuMuscats/AgawaNozomi.pm
 lib/Acme/EbisuMuscats/AmamiTsubasa.pm
 lib/Acme/EbisuMuscats/Ami.pm
 lib/Acme/EbisuMuscats/AndoAika.pm
+lib/Acme/EbisuMuscats/AnjoAnna.pm
 lib/Acme/EbisuMuscats/AnoAruru.pm
 lib/Acme/EbisuMuscats/AoiSora.pm
 lib/Acme/EbisuMuscats/AsamiYuma.pm
@@ -30,6 +31,7 @@ lib/Acme/EbisuMuscats/FujisakiAkane.pm
 lib/Acme/EbisuMuscats/FujiuraMegu.pm
 lib/Acme/EbisuMuscats/FukunishiNatsuki.pm
 lib/Acme/EbisuMuscats/HaradaAkie.pm
+lib/Acme/EbisuMuscats/HarunaHana.pm
 lib/Acme/EbisuMuscats/HatsuneMinori.pm
 lib/Acme/EbisuMuscats/HayashidaYuria.pm
 lib/Acme/EbisuMuscats/IchijoMao.pm
@@ -38,6 +40,7 @@ lib/Acme/EbisuMuscats/KasumiRisa.pm
 lib/Acme/EbisuMuscats/KataokaSaki.pm
 lib/Acme/EbisuMuscats/KawamuraEna.pm
 lib/Acme/EbisuMuscats/KawamuraRika.pm
+lib/Acme/EbisuMuscats/KijimaAiri.pm
 lib/Acme/EbisuMuscats/KiriharaErika.pm
 lib/Acme/EbisuMuscats/KirinoMio.pm
 lib/Acme/EbisuMuscats/KishiAino.pm
@@ -52,6 +55,7 @@ lib/Acme/EbisuMuscats/MegumiKei.pm
 lib/Acme/EbisuMuscats/Mihiro.pm
 lib/Acme/EbisuMuscats/MinamotoMiina.pm
 lib/Acme/EbisuMuscats/MisakiMiyu.pm
+lib/Acme/EbisuMuscats/MizukiUruha.pm
 lib/Acme/EbisuMuscats/MizutamaLemon.pm
 lib/Acme/EbisuMuscats/Moka.pm
 lib/Acme/EbisuMuscats/MomoseEmiru.pm
@@ -63,6 +67,7 @@ lib/Acme/EbisuMuscats/NishinoShou.pm
 lib/Acme/EbisuMuscats/NishizonoMomoko.pm
 lib/Acme/EbisuMuscats/OgawaAsami.pm
 lib/Acme/EbisuMuscats/OguraHaruka.pm
+lib/Acme/EbisuMuscats/OohashiSayoko.pm
 lib/Acme/EbisuMuscats/OriiHaruna.pm
 lib/Acme/EbisuMuscats/OshikawaYuika.pm
 lib/Acme/EbisuMuscats/OukaEri.pm

@@ -85,6 +85,7 @@ HarunaHana
 AnjoAnna
 MizukiUruha
 OohashiSayoko
+KijimaAiri
 );
 
 sub new {
