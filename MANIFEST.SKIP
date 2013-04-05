@@ -13,3 +13,5 @@
 \.cvsignore
 \.shipit
 MYMETA
+Build
+_build/

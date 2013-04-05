@@ -4,7 +4,8 @@ MYMETA.json
 Makefile
 Makefile.old
 MANIFEST.bak
-inc/
+Build
+_build/
 blib/
 pm_to_blib
 *~
